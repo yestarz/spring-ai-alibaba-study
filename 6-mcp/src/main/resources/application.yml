@@ -12,11 +12,3 @@ spring:
 logging:
   level:
     org.springframework.ai: DEBUG
-
-# 这里使用了阿里云的邮箱
-mail:
-  host: smtp.aliyun.com
-  port: 465
-  from: ${MAIL_USERNAME}
-  username: ${MAIL_USERNAME}
-  password: ${MAIL_PASSWORD}

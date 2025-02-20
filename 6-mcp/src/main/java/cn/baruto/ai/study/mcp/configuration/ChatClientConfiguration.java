@@ -1,4 +1,4 @@
-package cn.baruto.ai.study.function.configuration;
+package cn.baruto.ai.study.mcp.configuration;
 
 import com.alibaba.cloud.ai.dashscope.chat.DashScopeChatOptions;
 import org.springframework.ai.chat.client.ChatClient;
@@ -28,7 +28,6 @@ public class ChatClientConfiguration {
                 .defaultAdvisors(
                         new SimpleLoggerAdvisor()
                 )
-                .defaultFunctions("weatherFunction1","sendEmail")
                 // 设置 ChatClient 中 ChatModel 的 Options 参数
                 .defaultOptions(
                         DashScopeChatOptions.builder()
