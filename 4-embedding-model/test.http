@@ -1,0 +1,4 @@
+GET localhost:18083/ai/embedding
+
+###
+GET localhost:18083/ai/embedding2

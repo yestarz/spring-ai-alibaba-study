@@ -19,6 +19,7 @@
         <module>2-chat-client</module>
         <module>3-chat-model</module>
         <module>4-embedding-model</module>
+        <module>5-function</module>
     </modules>
 
     <properties>

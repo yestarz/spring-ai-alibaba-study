@@ -1,17 +1,13 @@
 server:
-  port: 18083
+  port: 18084
 
 spring:
   application:
-    name: 4-embedding-model
+    name: 5-function
 
   ai:
     dashscope:
       api-key: ${AI_DASHSCOPE_API_KEY}
-      # 修改嵌入模型名
-      embedding:
-        options:
-          model: text-embedding-v3
 
 logging:
   level:
