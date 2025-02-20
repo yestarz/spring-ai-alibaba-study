@@ -1,0 +1,14 @@
+server:
+  port: 18081
+
+spring:
+  application:
+    name: 2-chat-client
+
+  ai:
+    dashscope:
+      api-key: ${AI_DASHSCOPE_API_KEY}
+
+logging:
+  level:
+    org.springframework.ai: DEBUG

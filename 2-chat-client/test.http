@@ -1,0 +1,17 @@
+GET http://localhost:18081/hello
+
+###
+GET http://localhost:18081/hello-stream-chat-response
+
+
+###
+GET http://localhost:18081/hello-stream-string
+
+###
+GET http://localhost:18081/entity1
+
+###
+GET http://localhost:18081/entity-list
+
+###
+GET http://localhost:18081/translate?target=英文&source=你使用的是什么大语言模型？

@@ -16,6 +16,7 @@
     <description>spring-ai-alibaba-study</description>
     <modules>
         <module>1-hello-world</module>
+        <module>2-chat-client</module>
     </modules>
 
     <properties>
