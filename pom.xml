@@ -17,6 +17,8 @@
     <modules>
         <module>1-hello-world</module>
         <module>2-chat-client</module>
+        <module>3-chat-model</module>
+        <module>4-embedding-model</module>
     </modules>
 
     <properties>
