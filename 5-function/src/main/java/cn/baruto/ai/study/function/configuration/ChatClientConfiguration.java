@@ -28,7 +28,7 @@ public class ChatClientConfiguration {
                 .defaultAdvisors(
                         new SimpleLoggerAdvisor()
                 )
-                .defaultFunctions("weatherFunction1","sendEmail")
+                .defaultFunctions("weatherFunction","sendEmail")
                 // 设置 ChatClient 中 ChatModel 的 Options 参数
                 .defaultOptions(
                         DashScopeChatOptions.builder()

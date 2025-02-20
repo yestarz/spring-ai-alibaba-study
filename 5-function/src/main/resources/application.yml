@@ -20,3 +20,8 @@ mail:
   from: ${MAIL_USERNAME}
   username: ${MAIL_USERNAME}
   password: ${MAIL_PASSWORD}
+
+# 使用和风天气的api-key：https://console.qweather.com/
+weather:
+  api:
+    api-key: ${HEFENG_WEATHER_API_KEY}
