@@ -87,6 +87,7 @@
                 <artifactId>spring-ai-alibaba-starter</artifactId>
                 <version>${spring-ai-alibaba.version}</version>
             </dependency>
+
         </dependencies>
     </dependencyManagement>
 

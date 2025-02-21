@@ -8,6 +8,7 @@ spring:
   ai:
     dashscope:
       api-key: ${AI_DASHSCOPE_API_KEY}
+      document-index-name: ${AI_DASHSCOPE_DOCUMENT_INDEX_NAME}
 
 logging:
   level:

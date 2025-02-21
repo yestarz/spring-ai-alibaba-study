@@ -1,0 +1,5 @@
+GET localhost:18084/chat?userInput=微信用户端有哪些功能？
+
+####
+
+GET localhost:18084/chat?userInput=后端使用了哪些技术栈？

@@ -1,12 +1,16 @@
 package cn.baruto.ai.study.document_retriever.configuration;
 
+import com.alibaba.cloud.ai.dashscope.api.DashScopeApi;
 import com.alibaba.cloud.ai.dashscope.chat.DashScopeChatOptions;
+import com.alibaba.cloud.ai.dashscope.rag.DashScopeDocumentRetriever;
+import com.alibaba.cloud.ai.dashscope.rag.DashScopeDocumentRetrieverOptions;
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.ai.chat.client.advisor.MessageChatMemoryAdvisor;
 import org.springframework.ai.chat.client.advisor.SimpleLoggerAdvisor;
 import org.springframework.ai.chat.memory.InMemoryChatMemory;
 import org.springframework.ai.chat.model.ChatModel;
 import org.springframework.ai.chat.prompt.ChatOptions;
+import org.springframework.ai.rag.retrieval.search.DocumentRetriever;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -37,5 +41,14 @@ public class ChatClientConfiguration {
 
     }
 
+
+    @Bean
+    public DocumentRetriever documentRetriever(){
+        var dashScopeApi = new DashScopeApi(System.getenv("AI_DASHSCOPE_API_KEY"));
+        return  new DashScopeDocumentRetriever(dashScopeApi,
+                DashScopeDocumentRetrieverOptions.builder()
+                        .withIndexName(System.getenv("AI_DASHSCOPE_DOCUMENT_INDEX_NAME"))
+                        .build());
+    }
 
 }
