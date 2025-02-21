@@ -1,10 +1,15 @@
 server:
-  port: 18084
+  port: 18087
 
 spring:
   application:
-    name: 5-function
-
+    name: 7-chat-memory
+  data:
+    redis:
+      host: ${REDIS_HOST}
+      password: ${REDIS_PASSWORD}
+      port: 6379
+      database: 0
   ai:
     dashscope:
       api-key: ${AI_DASHSCOPE_API_KEY}
