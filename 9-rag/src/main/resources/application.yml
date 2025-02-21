@@ -1,9 +1,9 @@
 server:
-  port: 18084
+  port: 18089
 
 spring:
   application:
-    name: 5-function
+    name: 9-rag
 
   ai:
     dashscope:
