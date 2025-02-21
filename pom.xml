@@ -22,6 +22,11 @@
         <module>5-function</module>
         <module>6-mcp</module>
         <module>7-chat-memory</module>
+        <module>8-prompt</module>
+        <module>9-rag</module>
+        <module>10-document-retriever</module>
+        <module>11-structured-output</module>
+        <module>12-vector-store</module>
     </modules>
 
     <properties>
