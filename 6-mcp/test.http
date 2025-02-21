@@ -1,0 +1,1 @@
+GET http://localhost:18084/hello?prompt=用户表有多少条记录？

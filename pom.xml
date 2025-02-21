@@ -21,6 +21,7 @@
         <module>4-embedding-model</module>
         <module>5-function</module>
         <module>6-mcp</module>
+        <module>7-chat-memory</module>
     </modules>
 
     <properties>
