@@ -27,6 +27,7 @@
         <module>10-document-retriever</module>
         <module>11-structured-output</module>
         <module>12-vector-store</module>
+        <module>playground-flight-booking</module>
     </modules>
 
     <properties>
